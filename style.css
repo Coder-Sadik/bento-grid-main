@@ -1,0 +1,27 @@
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+/* Weights: 400, 500 */
+/* Font size (paragraph): 18px */
+p {
+	font-weight: 400;
+}
+h1,
+h2,
+h3 {
+	font-weight: 500;
+}
+/* colors */
+:root {
+	--Purple-100: hsl(254, 88%, 90%);
+	--Purple-500: hsl(256, 67%, 59%);
+
+	--Yellow-100: hsl(31, 66%, 93%);
+	--Yellow-500: hsl(39, 100%, 71%);
+
+	--White: hsl(0, 0%, 100%);
+	--Black: hsl(0, 0%, 7%);
+}
+
+body {
+	font-family: "DM Sans", sans-serif;
+}
